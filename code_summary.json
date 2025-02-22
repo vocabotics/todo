@@ -1,0 +1,37 @@
+{
+  "directories": [
+    "src/",
+    "src/components/",
+    "src/store/",
+    "src/types/"
+  ],
+  "files": [
+    "src/types/todo.ts",
+    "src/store/todoStore.ts",
+    "src/components/TodoInput.tsx",
+    "src/components/TodoList.tsx",
+    "src/components/TodoStats.tsx",
+    "src/App.tsx"
+  ],
+  "components": [
+    "TodoInput",
+    "TodoList",
+    "TodoStats"
+  ],
+  "types": [
+    "Todo",
+    "TodoState"
+  ],
+  "hooks": [
+    "useTodoStore"
+  ],
+  "features": [
+    "Add todos",
+    "Toggle todo completion",
+    "Delete todos",
+    "Todo statistics",
+    "Toast notifications",
+    "Animations",
+    "Theme support"
+  ]
+}
